@@ -1,7 +1,29 @@
 aid: synquest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synquest.png
 name: SynQuest
-description: SynQuest is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SynQuest, Inc. (formerly Nasdaq: SYNQ) was an Atlanta, Georgia based supply-chain
+  planning and logistics software company that provided e-business solutions to
+  optimize the financial and operational performance of the supply chain, including
+  transportation, distribution, and inventory planning and simulation for customers
+  such as Ford Motor Company. SynQuest reverse-merged with Viewlocity, Inc. in
+  November 2002 (Viewlocity merged into SynQuest as the surviving entity) and was
+  delisted from the Nasdaq SmallCap Market shortly after. Insight Partners (formerly
+  Insight Venture Partners) was an early investor, which is why the company appears
+  in the API Evangelist network as a VC-portfolio lead. The company is inactive today
+  and publishes no live website, developer portal, or public API surface; enrichment
+  searches found only historical SEC filings and press coverage.
 url: https://raw.githubusercontent.com/api-evangelist/synquest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,26 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: inactive
+x-status-reason: reverse-merged into Viewlocity Inc. in November 2002 and delisted; no live API surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Supply Chain
+- Logistics
+- Enterprise Software
+- Inactive
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
