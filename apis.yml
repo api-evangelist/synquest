@@ -33,7 +33,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: inactive
 x-status-reason: reverse-merged into Viewlocity Inc. in November 2002 and delisted; no live API surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
